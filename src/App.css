@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--main-bg-color);
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Customized design pattern */
+:root {
+  /* color */
+  --main-bg-color: #213891;
+  --main-text-color: #ffffff;
+
+  /* font */
+}
+
+.chuying-content {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: "OpenSans", sans-serif;
 }

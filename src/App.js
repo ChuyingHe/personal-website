@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <NavScroll />
 
-      <Container>
+      <div className="chuying-content">
         <Row>
           <AboutMe />
         </Row>
@@ -25,7 +25,7 @@ function App() {
         <Row>
           <ContactMe />
         </Row>
-      </Container>
+      </div>
     </div>
   );
 }
