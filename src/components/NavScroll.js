@@ -11,7 +11,7 @@ function NavScroll() {
     <Navbar className="chuying-navbar" variant="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand className="navbar-brand-color" href="#">
-          Navbar scroll
+          Chuying He's Website
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

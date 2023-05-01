@@ -1,3 +1,12 @@
+# TODOs
+
+- [] content as json format
+- [] international: EN, CN, DE, ES
+- [] graph design: row pic
+- [] animation design: movement & interaction
+- [] connect blog of mkdocs
+- [] connect badges from Credly
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -6,9 +6,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import NavScroll from "./components/NavScroll";
-import AboutMe from "./sections/AboutMe";
-import ContactMe from "./sections/ContactMe";
-import Blog from "./sections/Blog";
+import AboutSection from "./sections/AboutSection";
+import SkillSection from "./sections/SkillSection";
+import WorkSection from "./sections/WorkSection";
+import ContactSection from "./sections/ContactSection";
+import Blog from "./sections/BlogSection";
 
 function App() {
   return (
@@ -17,13 +19,16 @@ function App() {
 
       <div className="chuying-content">
         <Row>
-          <AboutMe />
+          <AboutSection />
         </Row>
         <Row>
-          <Blog />
+          <SkillSection />
         </Row>
         <Row>
-          <ContactMe />
+          <WorkSection />
+        </Row>
+        <Row>
+          <ContactSection />
         </Row>
       </div>
     </div>
@@ -31,3 +36,7 @@ function App() {
 }
 
 export default App;
+
+{
+  /* TODO: make this only accessable by entering the url */
+}
