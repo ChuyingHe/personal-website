@@ -10,9 +10,9 @@ function NavScroll() {
   return (
     <Navbar className="chuying-navbar" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand className="navbar-brand-color" href="#">
+        {/* <Navbar.Brand className="navbar-brand-color" href="#">
           Chuying He's Website
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -22,10 +22,12 @@ function NavScroll() {
           >
             {/* <Nav.Link href="#home">Home</Nav.Link> */}
             <Nav.Link href="#about">About</Nav.Link>
-            {/* <Nav.Link href="#service">Service</Nav.Link> */}
-            <Nav.Link href="#blog">Blog</Nav.Link>
+            <Nav.Link href="#skill">Skills&Rewards</Nav.Link>
+            <Nav.Link href="#blog">Works</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
+
+          <Button variant="outline-success">Language</Button>
           {/* <Form className="d-flex">
             <Form.Control
               type="search"
