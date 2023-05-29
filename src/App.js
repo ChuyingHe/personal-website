@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import NavScroll from "./components/NavScroll";
+import HeadSection from "./sections/HeadSection";
 import AboutSection from "./sections/AboutSection";
 import SkillSection from "./sections/SkillSection";
 import WorkSection from "./sections/WorkSection";
@@ -18,6 +19,9 @@ function App() {
       <NavScroll />
 
       <div className="chuying-content">
+        <Row>
+          <HeadSection />
+        </Row>
         <Row>
           <AboutSection />
         </Row>

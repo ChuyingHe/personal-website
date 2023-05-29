@@ -7,6 +7,13 @@
 - [] connect blog of mkdocs
 - [] connect badges from Credly
 
+# Tools for development
+- [GSAP Cheatsheet](https://greensock.com/cheatsheet/)
+
+# Used Dependencies
+
+- [GSAP](https://greensock.com/gsap/): js library for animation - created by GreenSock
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
