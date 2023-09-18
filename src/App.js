@@ -1,17 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
 
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import NavScroll from "./components/NavScroll";
-import HeadSection from "./sections/HeadSection";
 import AboutSection from "./sections/AboutSection";
-import SkillSection from "./sections/SkillSection";
-import WorkSection from "./sections/WorkSection";
 import ContactSection from "./sections/ContactSection";
-import Blog from "./sections/BlogSection";
+import HeadSection from "./sections/HeadSection";
+import SkillSection from "./sections/SkillSection";
+import TestSection from "./sections/TestSection";
+import WorkSection from "./sections/WorkSection";
 
 function App() {
   return (
@@ -19,6 +16,9 @@ function App() {
       <NavScroll />
 
       <div className="chuying-content">
+        <Row>
+          <TestSection />
+        </Row>
         <Row>
           <HeadSection />
         </Row>
