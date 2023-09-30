@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 const ContactMe = () => {
   return (
     <>
+      <h1 id="contact">Contact</h1>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>

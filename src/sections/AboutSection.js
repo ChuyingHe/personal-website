@@ -6,7 +6,7 @@ import Category from "../components/Category";
 const AboutSection = () => {
   return (
     <div>
-      <h1>AboutSection</h1>
+      <h1 id="about">About</h1>
       <Col>
         {about_data.data.map((category) => {
           return <Category data={category} />;

@@ -1,5 +1,10 @@
 const WorkSection = () => {
-  return <div>WorkSection</div>;
+  return (
+    <div>
+      <h1 id="work">Work</h1>
+      WorkSection
+    </div>
+  );
 };
 
 export default WorkSection;

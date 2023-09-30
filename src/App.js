@@ -16,12 +16,12 @@ function App() {
       <NavScroll />
 
       <div className="chuying-content">
-        <Row>
+        {/* <Row>
           <TestSection />
-        </Row>
-        <Row>
+        </Row> */}
+        {/* <Row>
           <HeadSection />
-        </Row>
+        </Row> */}
         <Row>
           <AboutSection />
         </Row>

@@ -22,8 +22,8 @@ function NavScroll() {
           >
             {/* <Nav.Link href="#home">Home</Nav.Link> */}
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#skill">Skills&Rewards</Nav.Link>
-            <Nav.Link href="#blog">Works</Nav.Link>
+            <Nav.Link href="#skill">Skills</Nav.Link>
+            <Nav.Link href="#works">Works</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
 
