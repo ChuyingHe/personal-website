@@ -48,11 +48,11 @@ function NavScroll() {
               <IconLanguage id="icon-language" />
             </Dropdown.Toggle>
 
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">🇬🇧</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">🇨🇳</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">🇩🇪</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">🇪🇸</Dropdown.Item>
+            <Dropdown.Menu size="sm" align="end">
+              <Dropdown.Item href="#/action-1">🇬🇧 English</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">🇨🇳 中文</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">🇩🇪 Deutsch</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">🇪🇸 Español</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </Container>
