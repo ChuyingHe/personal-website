@@ -1,0 +1,14 @@
+/* Boat.css */
+
+.boat {
+  position: fixed;
+  top: 0;
+  // this is the original value when scroll get started
+  left: 10%;
+  transform: translateX(-50%);
+  transition: transform 0.3s ease-out;
+}
+
+.boat img {
+  width: 100px; /* Adjust the width as needed */
+}

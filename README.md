@@ -1,3 +1,74 @@
+# IDEAs
+
+## 1 Horizontal Sea Surface
+
+Sea far away from the shore -> Shore/beach
+
+- Marine Life: The sea is teeming with marine life. You may see fish swimming near the surface, dolphins leaping out of the water, or even the occasional whale breaching.
+- Boats and Ships
+- Reflections
+- Waves and current
+- Navigation Aids: Aerial shots may reveal navigational aids such as buoys, lighthouses, and beacons that assist ships in safe navigation.
+- Swimming ppl
+- Beach: https://www.architecturaldigest.com/gallery/aerial-photographs-beaches
+
+Scrolling effect for a boat: driving to the shore
+
+## 2 Vertical Sea ecosystem
+
+Surface of the sea -> Deep sea
+
+- Sun
+- Things on the surface
+
+1. Shallow Seas (0 to a few hundred meters):
+
+- Clownfish
+- Seahorses
+- Sea turtles
+- Coral reefs
+- Seagrasses
+
+2. Continental Shelf (100 to 500 meters):
+
+- Groupers
+- Sand dollars
+- Flounder
+- Lobsters
+- Kelp forests
+
+3. Deep Ocean Basins (average of about 3,682 meters):
+
+- Deep-sea anglerfish
+- Giant squid
+- Tubeworms
+- Deep-sea cucumbers
+- Blobfish
+
+4. Trenches and Canyons (deeper than average ocean depth):
+
+- Abyssal polychaete worms
+- Snailfish
+- Frilled sharks
+- Hadal amphipods
+- Giant isopods
+
+5. Submarine Ridges and Seamounts (varies):
+
+- Hydrothermal vent communities (e.g., giant tube worms, vent crabs)
+- Alvinella pompejana (a heat-tolerant worm)
+- Blackbelly rosefish
+- Deep-sea corals
+- Sperm whales (often found near seamounts)
+
+6. Abyssal Plains (4,000 to 6,000 meters):
+
+- Abyssal cusk-eels
+- Abyssal hagfish
+- Deep-sea jellyfish
+- Grenadiers
+- Abyssal polychaete worms
+
 # TODOs
 
 - [] content as json format
@@ -8,6 +79,7 @@
 - [] connect badges from Credly
 
 # Tools for development
+
 - [GSAP Cheatsheet](https://greensock.com/cheatsheet/)
 
 # Used Dependencies

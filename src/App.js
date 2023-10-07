@@ -10,12 +10,16 @@ import SkillSection from "./sections/SkillSection";
 import TestSection from "./sections/TestSection";
 import WorkSection from "./sections/WorkSection";
 
+import Boat from "./components/Boat";
+
 function App() {
   return (
     <div className="App">
       <NavScroll />
 
       <div className="chuying-content">
+        <Boat />
+        
         {/* <Row>
           <TestSection />
         </Row> */}
