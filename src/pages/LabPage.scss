@@ -1,0 +1,26 @@
+.svg-bg {
+  filter: drop-shadow(rgba(255, 255, 255, 0.5) 0px 0px 10px);
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 50vh; /* 100vh? Adjust the height as needed */
+  overflow: hidden;
+  .umbrellas-container {
+    z-index: 1000;
+    position: relative;
+
+    .umbrella {
+      // do sth
+    }
+  }
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
