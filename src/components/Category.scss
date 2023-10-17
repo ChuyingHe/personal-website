@@ -1,0 +1,19 @@
+.organisation-item {
+  text-align: left;
+  margin: 2rem 0;
+
+  .organisation-location {
+    opacity: 0.6;
+  }
+
+  .experience-item {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    .experience-time {
+      opacity: 0.6;
+    }
+    .experience-description {
+      white-space: pre-line;
+    }
+  }
+}

@@ -1,39 +1,35 @@
-const Category = (data) => {
+import "./Category.scss";
+
+const Category = (category) => {
+  const data = category.category;
+
   return (
     <div>
-      {console.log(data.data)}
-      <h3>{data.data.name}</h3>
-      {data.data.list.map((item) => {
+      <h3>{data.name}</h3>
+      {console.log(data)}
+      {data.list.map((item) => {
         return (
-          <>
-            {item.title && (
-              <>
-                Title: {item.title} <br />
-              </>
-            )}
-
-            {item.company && (
-              <>
-                Company: {item.company} <br />
-              </>
-            )}
-            {item.location && (
-              <>
-                Location: {item.location} <br />
-              </>
-            )}
-            {item.time_start && (
-              <>
-                Time: {item.time_start} ~ {item.time_end} <br />{" "}
-              </>
-            )}
-            {item.description && (
-              <>
-                Description: {item.description} <br />
-              </>
-            )}
-            <hr />
-          </>
+          <div className="organisation-item">
+            <strong>{item.organisation}</strong>
+            <div className="organisation-location">
+              {item.location && <div>{item.location}</div>}
+            </div>
+            {/* calculated duration */}
+            {item.experiences.map((exp) => {
+              return (
+                <div className="experience-item">
+                  <strong>{exp.title}</strong>
+                  {exp.department && <div>{exp.department}</div>}
+                  <div className="experience-time">
+                    {exp.time_start} - {exp.time_end}
+                  </div>
+                  <div className="experience-description">
+                    {exp.description}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         );
       })}
     </div>
