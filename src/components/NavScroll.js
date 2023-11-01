@@ -5,12 +5,18 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Dropdown from "react-bootstrap/Dropdown";
-
+import { useTranslation } from "react-i18next";
 import { ReactComponent as IconLanguage } from "../asset/icon_language.svg";
 
 import "./NavScroll.css";
 
 function NavScroll() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   return (
     <div>
       <Navbar className="chuying-navbar" variant="dark" expand="lg" fixed="top">
@@ -26,10 +32,18 @@ function NavScroll() {
               navbarScroll
             >
               {/* <Nav.Link href="#home">Home</Nav.Link> */}
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#skill">Skills</Nav.Link>
-              <Nav.Link href="#works">Works</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="#about">
+                {t("internalization.section_1")}
+              </Nav.Link>
+              <Nav.Link href="#skill">
+                {t("internalization.section_2")}
+              </Nav.Link>
+              <Nav.Link href="#works">
+                {t("internalization.section_3")}
+              </Nav.Link>
+              <Nav.Link href="#contact">
+                {t("internalization.section_4")}
+              </Nav.Link>
             </Nav>
 
             {/* <Form className="d-flex">
@@ -49,10 +63,18 @@ function NavScroll() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu size="sm" align="end">
-              <Dropdown.Item href="#/action-1">🇬🇧 English</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">🇨🇳 中文</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">🇩🇪 Deutsch</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">🇪🇸 Español</Dropdown.Item>
+              <Dropdown.Item onClick={() => changeLanguage("en")}>
+                🇬🇧 English
+              </Dropdown.Item>
+              <Dropdown.Item onClick={() => changeLanguage("de")}>
+                🇩🇪 Deutsch
+              </Dropdown.Item>
+              <Dropdown.Item onClick={() => changeLanguage("cn")}>
+                🇨🇳 中文
+              </Dropdown.Item>
+              <Dropdown.Item onClick={() => changeLanguage("es")}>
+                🇪🇸 Español
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </Container>

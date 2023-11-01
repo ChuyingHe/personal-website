@@ -4,9 +4,9 @@ import AboutSection from "../sections/AboutSection";
 import ContactSection from "../sections/ContactSection";
 import SkillSection from "../sections/SkillSection";
 import WorkSection from "../sections/WorkSection";
-import "./IntroPage.scss";
+import "./MainPage.scss";
 
-const IntroPage = () => {
+const MainPage = () => {
   return (
     <>
       <div className="chuying-content content-below-navscroll">
@@ -28,4 +28,4 @@ const IntroPage = () => {
   );
 };
 
-export default IntroPage;
+export default MainPage;

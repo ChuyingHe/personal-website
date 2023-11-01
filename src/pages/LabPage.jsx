@@ -26,13 +26,13 @@ const LabPage = () => {
   };
 
   //================ 2 ================
-  const onRotate = ({ currentTarget }) => {
+  const onUmbrellaRotate = ({ currentTarget }) => {
     gsap.to(currentTarget, {
       rotate: 90,
     });
   };
 
-  const onRevert = ({ currentTarget }) => {
+  const onUmbrellaRevert = ({ currentTarget }) => {
     gsap.to(currentTarget, {
       rotate: -90,
       delay: 0.1,
@@ -53,29 +53,29 @@ const LabPage = () => {
             src={umbrella1}
             width="60px"
             className="umbrella"
-            onMouseEnter={onRotate}
-            onMouseLeave={onRevert}
+            onMouseEnter={onUmbrellaRotate}
+            onMouseLeave={onUmbrellaRevert}
           />
           <img
             src={umbrella2}
             width="80px"
             className="umbrella"
-            onMouseEnter={onRotate}
-            onMouseLeave={onRevert}
+            onMouseEnter={onUmbrellaRotate}
+            onMouseLeave={onUmbrellaRevert}
           />
           <img
             src={umbrella3}
             width="60px"
             className="umbrella"
-            onMouseEnter={onRotate}
-            onMouseLeave={onRevert}
+            onMouseEnter={onUmbrellaRotate}
+            onMouseLeave={onUmbrellaRevert}
           />
           <img
             src={umbrella4}
             width="60px"
             className="umbrella"
-            onMouseEnter={onRotate}
-            onMouseLeave={onRevert}
+            onMouseEnter={onUmbrellaRotate}
+            onMouseLeave={onUmbrellaRevert}
           />
         </div>
 
